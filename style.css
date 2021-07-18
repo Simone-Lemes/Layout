@@ -19,6 +19,8 @@
 body{
   font-family: "Roboto","sans-serif";
   background: #ffffff;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .wrapper{
@@ -179,6 +181,7 @@ margin-left: 12em;
   z-index: -1;
   top: 170px;
   left: 530px;
+  margin-left: 4rem;
 }
 
 .hero-container .polygon3 {
@@ -186,6 +189,7 @@ margin-left: 12em;
   z-index: -1;
   top: 300px;
   left: 700px;
+  margin-left: 4rem;
 }
 
 /*Animation*/
@@ -356,11 +360,50 @@ to {
    .footer-copyright {
     background-color: var(--dark-color);
     padding: 20px 0;
+    text-align: center;
    }
 
   .footer-bottom{
     color:var(--light-color);
-    margin-inline-start:  4em;
+    margin-inline-start:  5em;
     text-align: center;
     font-size: 12px;
   }
+
+  .desktop-nav .menu-icon {
+    display: none;
+  }
+
+  /* media queries*/
+  /*tablet*/
+@media screen and (max-width:768px){
+  .hero-container {
+
+  }
+}
+
+
+/*celular*/
+@media screen and (max-width:600px){
+  
+  .hero-image,
+  .hero-container .polygon2 ,
+  .hero-container .polygon3 {
+    display: none;
+  }
+
+}
+
+ 
+
+
+
+
+
+ 
+
+    
+   
+   
+
+ 
